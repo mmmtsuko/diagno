@@ -1,0 +1,40 @@
+﻿.diet_form {
+  background: #e6e6e6;
+  padding: 10px 40px;
+}
+
+.form dl dt {
+  width: 300px;
+  height: 40px;
+  padding: 10px 0;
+  line-height: 40px;
+  float: left;
+}
+
+.form dl dd {
+  padding: 10px 0;
+  margin: 0;
+  
+}
+
+.box {
+  box-sizing: border-box;
+  width: 150px !important;
+  height: 40px !important;
+  margin: 0 !important;
+  padding: 0 10px !important;
+  border: 1px thistle;
+  
+}
+
+
+.calc-btn {
+  width: 90px;
+  height: 30px;
+  border: 1px solid #d6d0d0;
+}
+
+.calc-btn:hover {
+  cursor: pointer;
+}
+
