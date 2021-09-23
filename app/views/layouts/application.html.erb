@@ -2,12 +2,12 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ProtoSpace</title>
+    <title>Personal diagnosis</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700,900&display=swap" rel="stylesheet">
+
   </head>
 
   <body>
@@ -15,6 +15,7 @@
       <div class="inner">
         <div class="nav">
           <div class="nav__left">
+          <h1 class="title">Personal diagnosis</h1>
             <%#= link_to image_tag("logo.png", class: :logo), root_path %>
           </div>
 
@@ -37,6 +38,14 @@
       </div>
     </header>
     <%= yield %>
+    <nav class="my-parts">
+			<ul>
+				<li><a href="#">お知らせ</a></li>
+		    <li><a href="#">ブログ</a></li>
+		    <li><a href="#">当サイトについて</a></li>
+		    <li><a href="#">お問い合わせ</a></li>
+    	</ul>
+    </nav>
     <footer class="footer">
       <p class="copyright">Copyright © PROTO SPACE All rights reserved.</p>
     </footer>
