@@ -5,8 +5,10 @@
         こんにちは、
         <%= link_to "#{current_user.nickname}さん", user_path(current_user), class: :greeting__link%>
       </div>
+      <%= link_to 'PFCを測定する', '/users/show', method: :get %>
     <% end %>
     <div class="card__wrapper">
+      <%= render partial: 'prototype', collection: @prototypes %>
     </div>
   </div>
 </main>

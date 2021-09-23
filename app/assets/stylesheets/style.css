@@ -40,8 +40,19 @@ a {
   background-color: #eddbdb;
   margin-bottom: 48px;
   padding: 20px 0;
-
 }
+
+.title {
+  background: #795548;
+	font-size: 2.4em;
+	font-weight: bold;
+	padding: .4em .8em;
+	color: #fff;
+	text-shadow: 1px 1px #333,
+		2px 2px #333,
+		3px 3px #333,
+}
+
 .inner {
   width: 1024px;
   margin: 0 auto;
