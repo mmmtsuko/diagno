@@ -17,6 +17,8 @@
         <dt>炭水化物(g)：</dt>
         <dd><input id="carbo" class="box" type="text" readonly=""></dd>
     </dl>
+
+    <a href="" class="btn btn--orange btn--circle btn--circle-a btn--shadow">戻る</a>
 </form>
 
 <script>
@@ -27,4 +29,4 @@
         const fat_value = document.getElementById('fat').value = Math.round(lean_value * 0.9);
         const carbo_value = document.getElementById('carbo').value = Math.round((cal_value - (protein_value * 4) - (fat_value * 9)) / 4);
     }
-</script
+</script>
