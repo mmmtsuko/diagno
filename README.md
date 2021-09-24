@@ -1,24 +1,46 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##アプリケーション名
 
-Things you may want to cover:
+          Personal diagnosis
+        
 
-* Ruby version
 
-* System dependencies
+# アプリケーション概要 
+利用者の体重や、身長などをアプリに記入してもらうだけで電卓で計算しなくてもすぐに計算できる
 
-* Configuration
 
-* Database creation
+#  URL 	
+デプロイ済みのURLを記述。デプロイが済んでいない場合は、デプロイが完了次第記述すること。
 
-* Database initialization
 
-* How to run the test suite
+# テスト用アカウント	
+ログイン機能等を実装した場合は、ログインに必要な情報を記述。またBasic認証等を設けている場合は、そのID/Passも記述すること
 
-* Services (job queues, cache servers, search engines, etc.)
+# 利用方法	
+ユーザー登録を行い
+、登録したユーザーが利用できるような仕組みにする。
+計算した後は、計算データをラインや携帯のメールアドレスに飛ばせるような仕組みにしたい。
+また、結果を保存することができ過去の履歴が確認できるような仕組みする。
 
-* Deployment instructions
 
-* ...
+# 目指した課題解決	
+ 病院で食事制限のない方を対象。
+ また、ローレル指数とカプス指数は今回実装しないため、成人限定に作られる。
+ できるだけ、毎日ログインしてもらえるように、日常に負担がこないシンプルな作りにしたい。
+
+ 
+
+# 洗い出した要件	
+スプレッドシートにまとめた要件定義を記述。
+実装した機能についての画像やGIFおよびその説明	実装した機能について、それぞれどのような特徴があるのかを列挙する形で記述。画像はGyazoで、GIFはGyazoGIFで撮影すること。
+
+# 実装予定の機能
+	洗い出した要件の中から、今後実装予定の機能がある場合は、その機能を記述。
+
+# データベース設計
+	
+ER図等を添付。
+
+# ローカルでの動作方法	
+git cloneしてから、ローカルで動作をさせるまでに必要なコマンドを記述。この時、アプリケーション開発に使用した環境を併記することを忘れないこと（パッケージやRubyのバージョンなど）。
